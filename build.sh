@@ -11,7 +11,7 @@ export SUBARCH=arm64
 #export CROSS_COMPILE=/home/nonta72/linaro49/bin/aarch64-linux-gnu-
 
 #Defconfig for Y6 with NetHunter support
-make -C $PWD O=$PWD/out ARCH=arm64 ld_defconfig
+make -C $PWD O=$PWD/out ARCH=arm64 ld_2_defconfig
 #make ARCH=arm64 k6000_plus_defconfig
 
 make -j4 -C $PWD O=$PWD/out ARCH=arm64
